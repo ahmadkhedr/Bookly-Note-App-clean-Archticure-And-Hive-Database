@@ -9,7 +9,7 @@ abstract class FeaturedBooksState extends Equatable {
 
 class FeaturedBooksInitial extends FeaturedBooksState {}
 
-class FeaturedBooksLoadin extends FeaturedBooksState {}
+class FeaturedBooksLoading extends FeaturedBooksState {}
 
 class FeaturedBooksSuceess extends FeaturedBooksState {
   final List<BookEntity> booksList;
